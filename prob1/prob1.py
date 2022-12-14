@@ -28,7 +28,7 @@ def find_max_for_3(file_lines):
 
 
 def edit_max(max:list, value:int):
-    '''Vérifie et associe, si nécessaire, la valeur de value aux 3 plus grandes valeurs de max'''
+    """Vérifie et associe, si nécessaire, la valeur de value aux 3 plus grandes valeurs de max"""
     if value > max[0]:
         max[2], max[1], max[0] = max[1], max[0], value
     elif value > max[1]:
